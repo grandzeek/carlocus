@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BestCheapSUVActivity"
+    android:background="@drawable/charcoalblack">
+
+
+
+    <TextView
+        android:id="@+id/headingOneA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cheap SUV"
+        android:layout_marginVertical="10dp"
+        android:layout_marginLeft="140dp"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/headingTwoA"
+        android:layout_below="@id/headingOneA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Information"
+        android:layout_marginVertical="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txtTwoA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/headingTwoA"
+        android:layout_marginVertical="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="Explore our suv range Kia Seltos and sportage"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card1A"
+        android:layout_below="@id/txtTwoA"
+        android:layout_width="200dp"
+        android:layout_marginLeft="70dp"
+        app:cardCornerRadius="10dp"
+        android:layout_height="50dp"
+        app:cardBackgroundColor="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:drawableLeft="@drawable/baseline_arrow_right_24"
+            android:layout_marginVertical="10dp"
+            android:text="Explore"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/headingThreeA"
+        android:layout_below="@id/card1A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Best SUV money can buy"
+        android:layout_marginVertical="20dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txt3A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/headingThreeA"
+        android:layout_marginVertical="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="Contact verified suppliers online"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card2A"
+        android:layout_below="@id/txt3A"
+        android:layout_width="200dp"
+        android:layout_marginLeft="70dp"
+        app:cardCornerRadius="10dp"
+        android:layout_height="50dp"
+        app:cardBackgroundColor="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:drawableLeft="@drawable/baseline_arrow_right_24"
+            android:layout_marginVertical="10dp"
+            android:text="Explore"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/headingFourA"
+        android:layout_below="@id/card2A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vigo4U -used cars Kenya"
+        android:layout_marginVertical="20dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txt4A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/headingFourA"
+        android:layout_marginVertical="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="Buy directly from exporter.com stop service fast shipping original accessory fully loaded"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card3A"
+        android:layout_below="@id/txt4A"
+        android:layout_width="200dp"
+        android:layout_marginLeft="70dp"
+        app:cardCornerRadius="10dp"
+        android:layout_height="50dp"
+        app:cardBackgroundColor="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:drawableLeft="@drawable/baseline_arrow_right_24"
+            android:layout_marginVertical="10dp"
+            android:text="Explore"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card4A"
+        android:layout_below="@id/card3A"
+        android:layout_width="300dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="50dp"
+        app:cardCornerRadius="10dp"
+        android:layout_height="70dp"
+        app:cardBackgroundColor="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:textAlignment="center"
+            android:layout_marginVertical="10dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="65dp"
+            android:text="BACK"
+            android:textStyle="bold"
+            android:textSize="25dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "827503623356",
+    "project_id": "carlocus-f6b7d",
+    "storage_bucket": "carlocus-f6b7d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827503623356:android:399600dd1bb801d76d64b9",
+        "android_client_info": {
+          "package_name": "com.example.carlocus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "827503623356-00lhbjnh9l1pamsb7vds34o5vf3iml0l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOSWy2Bf2UaeV7EndjG8cINqZvL1v_12U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "827503623356-00lhbjnh9l1pamsb7vds34o5vf3iml0l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

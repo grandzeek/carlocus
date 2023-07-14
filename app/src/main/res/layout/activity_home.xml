@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/charcoalblack"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-HOME-"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:columnCount="1"
+        android:rowCount="7">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/luxury"
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/wheat"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="76dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/text0"
+                    android:layout_width="351dp"
+                    android:layout_height="44dp"
+                    android:layout_marginVertical="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:drawableRight="@drawable/baseline_arrow_right_24"
+                    android:drawablePadding="110dp"
+                    android:text="Buy cheap Luxury Suv"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/deals"
+            android:layout_width="wrap_content"
+            android:layout_height="14dp"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/wheat"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="351dp"
+                    android:layout_height="43dp"
+                    android:layout_marginVertical="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:drawableRight="@drawable/baseline_arrow_right_24"
+                    android:text="Best Luxury SUV Deals Right now"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cheap"
+            android:layout_width="wrap_content"
+            android:layout_height="4dp"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/wheat"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="351dp"
+                    android:layout_height="40dp"
+                    android:layout_marginVertical="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:drawableRight="@drawable/baseline_arrow_right_24"
+                    android:drawablePadding="150dp"
+                    android:text="Best Cheap SUV"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/BestSmallSuv"
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"
+            android:layout_row="3"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/wheat"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="351dp"
+                    android:layout_height="37dp"
+                    android:layout_marginVertical="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:drawableRight="@drawable/baseline_arrow_right_24"
+                    android:drawablePadding="150dp"
+                    android:text="Best Small SUV"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/smallSuv"
+            android:layout_width="wrap_content"
+            android:layout_height="3dp"
+            android:layout_row="4"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/wheat"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="351dp"
+                    android:layout_height="41dp"
+                    android:layout_marginVertical="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:drawableRight="@drawable/baseline_arrow_right_24"
+                    android:drawablePadding="200dp"
+                    android:text="Small SUV"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/logout"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_row="5"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_marginBottom="20dp"
+            android:background="@color/black"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="91dp"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="342dp"
+                    android:layout_height="41dp"
+                    android:layout_marginVertical="30dp"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="5dp"
+                    android:drawableRight="@drawable/baseline_arrow_right_24"
+                    android:drawablePadding="200dp"
+                    android:text="LOG OUT"
+                    android:textAlignment="center"
+                    android:textColor="#DD2323"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </GridLayout>
+
+</RelativeLayout>
+
